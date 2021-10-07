@@ -11,7 +11,7 @@ int main()
 	double A, n;
 	cout << "Vvedite znachenye A" << endl;
 	cin >> A;
-	n = pow(A,2)*pow(A,2)*pow(A,4);
+	n = pow(A,2)*pow(A,2)*pow(A,2)*pow(A,2)
 	cout << "otvet raven = " << n;
 
 
