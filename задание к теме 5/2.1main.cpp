@@ -13,9 +13,9 @@ using namespace std;
 
 int main() {
    
-    double x1, x2, y1, y2;
-    cout << "vvedite dannye koordinate x1 x2 y1 y2" << endl;
-    cin >> x1 >> x2 >> y1 >> y2;
+    double x1, y1, x2, y2;
+    cout << "vvedite dannye koordinate x1 y1 x1 y2" << endl;
+    cin >> x1 >> y1 >> x2 >> y2;
     cout << "Rasstoyanye ravno = " << sqrt (pow(x1-x2,2) + pow (y1-y2,2));
 
     return 0;
